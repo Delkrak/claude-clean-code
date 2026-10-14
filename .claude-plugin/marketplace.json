@@ -1,0 +1,13 @@
+{
+  "name": "clean-code-skill",
+  "owner": { "name": "Delkrak" },
+  "description": "Clean Code style rules for Claude Code.",
+  "plugins": [
+    {
+      "name": "clean-code",
+      "source": "./plugins/clean-code",
+      "description": "Clean Code style rules for writing readable, maintainable code.",
+      "version": "0.4.0"
+    }
+  ]
+}
