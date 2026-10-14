@@ -1,5 +1,5 @@
 {
-  "name": "clean-code-skill",
+  "name": "clean-code",
   "owner": { "name": "Delkrak" },
   "description": "Clean Code style rules for Claude Code.",
   "plugins": [
