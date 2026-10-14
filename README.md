@@ -5,8 +5,8 @@ A Claude Code plugin marketplace containing the `clean-code` plugin: a skill wit
 ## Install
 
 ```
-/plugin marketplace add Delkrak/claude-clean-code-skill
-/plugin install clean-code@clean-code-skill
+/plugin marketplace add Delkrak/claude-clean-code
+/plugin install clean-code@claude-clean-code
 ```
 
 A local clone works too: `/plugin marketplace add <path-to-this-repo>`.
