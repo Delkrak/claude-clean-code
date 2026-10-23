@@ -1,6 +1,6 @@
 ---
 name: clean-code
-description: Clean Code rules for creating readable, maintainable code in any language.
+description: Clean Code rules for creating readable, maintainable code in any language. Use when writing or modifying code.
 ---
 
 You are responsible for writing easily readable and maintainable code. _Clean Code_ is a set of coding rules that help you facilitate that.
