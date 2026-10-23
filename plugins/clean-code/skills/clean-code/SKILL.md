@@ -1,6 +1,6 @@
 ---
 name: clean-code
-description: Clean Code style rules V0.4
+description: Clean Code rules
 ---
 
 You are responsible for writing easily readable and maintainable code. _Clean Code_ is a set of coding rules that help you facilitate that.
@@ -15,7 +15,7 @@ You are responsible for writing easily readable and maintainable code. _Clean Co
 
 > §1.3: _Modifications_ are the project's changes to the clean code rules, confined to `clean-code-modifications.md` in the project root if it exists and numbered `§M.*`. A _Modification_ wins over a rule or _Clarification_ it disagrees with, precedence: § < §C < §M.
 
-> §1.4: When writing new code you must determine if any of the _Clarifications_ or _Modifications_ apply to it, then check it in the order §2, §3, §4. §5 applies throughout.
+> §1.4: When writing new code you must determine if any of the _Clarifications_ or _Modifications_ apply to it, then check it in the order §2, §3, §4.
 
 > §1.5: Applying Clean Code to existing code is considered new code and must follow §1.4. Work one file at a time, re-reading the code you were asked to apply it to before moving on.
 
@@ -48,6 +48,8 @@ Unclear variable names are a liability because they make it hard to understand w
 
 > §3.3: If a variable name leaves you asking "of what?", then you must answer it in the name.
 
+> §3.4: If a language server is available (plugin LSP servers), then you must use its symbol map to check variable names.
+
 ## Clean function naming
 
 A _clean function name_ must say what the function does.
@@ -57,15 +59,7 @@ Unclear function names are a liability because they make it hard to understand w
 
 > §4.2: If a function name is not true to what the function does, then you must rename it.
 
-## Clean refactoring
-
-A _clean codebase_ is kept clean by incrementally improving it with each change.
-
-> §5.1: If you modify a piece of code that does not follow the clean code principles, then you must make it clean.
-
-> §5.2: Refactoring effort is proportional to feature size. Working on a 10 point task permits you to do 3 points of refactoring without asking for permission.
-
-> §5.3: You are responsible for keeping the codebase clean, so ask for permission to do bigger refactors when you spot them.
+> §4.3: If a language server is available (plugin LSP servers), then you must use its symbol map to check function names.
 
 # Clarifications
 
