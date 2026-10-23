@@ -1,12 +1,12 @@
 # Clean Code skill for Claude Code
 
-A Claude Code plugin marketplace containing the `clean-code` plugin: a skill with Clean Code style rules that keep Claude's code readable and maintainable — clean comments, clean variable and function naming, and incremental refactoring.
+A Claude Code plugin marketplace containing the `clean-code` plugin: a skill with Clean Code style rules that keep Claude's code readable and maintainable — clean comments and clean variable and function naming.
 
 ## Install
 
 ```
-/plugin marketplace add Delkrak/claude-clean-code-skill
-/plugin install clean-code@clean-code-skill
+/plugin marketplace add Delkrak/claude-clean-code
+/plugin install clean-code@clean-code
 ```
 
 A local clone works too: `/plugin marketplace add <path-to-this-repo>`.
