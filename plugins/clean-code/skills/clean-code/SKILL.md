@@ -1,6 +1,6 @@
 ---
 name: clean-code
-description: Clean Code rules
+description: Clean Code rules for creating readable, maintainable code in any language.
 ---
 
 You are responsible for writing easily readable and maintainable code. _Clean Code_ is a set of coding rules that help you facilitate that.
@@ -59,7 +59,9 @@ Unclear function names are a liability because they make it hard to understand w
 
 > §4.2: If a function name is not true to what the function does, then you must rename it.
 
-> §4.3: If a language server is available (plugin LSP servers), then you must use its symbol map to check function names.
+> §4.3: If a standalone function's name leaves you asking "on what?", then you must answer it in the name.
+
+> §4.4: If a language server is available (plugin LSP servers), then you must use its symbol map to check function names.
 
 # Clarifications
 
